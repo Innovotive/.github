@@ -1,0 +1,36 @@
+name: Bug Report
+description: File a bug report.
+title: "[BUG]: "
+labels: ["bug"]
+type: bug
+body:
+  - type: input
+    id: description
+    attributes: 
+      label: Brief Description
+      description: Provide a concise summary of the bug.
+  - type: textarea
+    id: steps
+    attributes: 
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the bug. Include any specific configurations, settings, or conditions.
+  - type: input
+    id: expected
+    attributes: 
+      label: Expected Behaviour
+      description: Describe what you expected to happen when following the steps above.
+  - type: input
+    id: actual
+    attributes: 
+      label: Actual Behaviour
+      description: Describe what actually happened when following the steps above.
+  - type: upload
+    id: logs
+    attributes: 
+      label: Supporting Documents
+      description: Add any relevant logs/screenshots/video clips that demonstrate the issue.
+  - type: textarea
+    id: notes
+    attributes: 
+      label: Additional Notes/Possible Fixes
+      description: Provide any additional information that may help in resolving the issue, such as related issues, past occurrences, or troubleshooting steps attempted. Include any insight into potential fixes.
