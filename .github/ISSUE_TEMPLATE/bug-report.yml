@@ -9,21 +9,29 @@ body:
     attributes: 
       label: Brief Description
       description: Provide a concise summary of the bug.
+    validations:
+      required: true
   - type: textarea
     id: steps
     attributes: 
       label: Steps to Reproduce
       description: Step-by-step instructions to reproduce the bug. Include any specific configurations, settings, or conditions.
+    validations:
+      required: true
   - type: input
     id: expected
     attributes: 
       label: Expected Behaviour
       description: Describe what you expected to happen when following the steps above.
+    validations:
+      required: true
   - type: input
     id: actual
     attributes: 
       label: Actual Behaviour
       description: Describe what actually happened when following the steps above.
+    validations:
+      required: true
   - type: upload
     id: logs
     attributes: 
