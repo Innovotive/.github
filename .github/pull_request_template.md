@@ -1,5 +1,5 @@
 ### Summary
-Provide a short description of what changes are introduced.
+Provide a short description of the changes.
 
 ### Changes Made
 - Change 1
