@@ -12,6 +12,12 @@ Steps to verify that the changes work as expected.
 - Step 2
 - ...
 
+### File Changes
+List the files that were changed.
+- File1.cpp
+- File2.cs
+- ...
+
 ### Screenshots (if applicable)
 Attach screenshots demonstrating the changes.
 
