@@ -1,0 +1,25 @@
+name: Task
+description: Create a task.
+title: "[TASK]: "
+labels: ["enhancement"]
+type: task
+body:
+  - type: textarea
+    id: description
+    attributes: 
+      label: Description
+      description: Provide a summary of all work to be done.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes: 
+      label: Acceptance Criteria
+      description: Provide all of the necessary functionality required to consider the work done. Be as detailed as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes: 
+      label: Additional Notes
+      description: Provide any additional information that may be helpful.
