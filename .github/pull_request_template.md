@@ -8,9 +8,23 @@ Provide a short description of the changes.
 
 ### Testing Instructions
 Steps to verify that the changes work as expected.
+- Step 1
+- Step 2
+- ...
+
+### File Changes
+List the files that were changed.
+- File1.cpp
+- File2.cs
+- ...
 
 ### Screenshots (if applicable)
 Attach screenshots demonstrating the changes.
 
 ### Additional Notes
 Anything else relevant for the reviewers to know.
+
+### Related issues
+- Closes #1
+- Closes #2  
+- ...
